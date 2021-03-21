@@ -13,10 +13,10 @@ SimpleCov.start "rails" do
     "app/models/transaction.rb"
   ]
   # skip exercise 3
-  add_filter [
-    "app/controllers/exercise3_controller.rb",
-    "app/services/exercise3/calculate_service.rb"
-  ]
+  # add_filter [
+  #   "app/controllers/exercise3_controller.rb",
+  #   "app/services/exercise3/calculate_service.rb"
+  # ]
   # skip exercise 4
   add_filter [
     "app/controllers/exercise4_controller.rb",
