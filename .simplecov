@@ -38,10 +38,10 @@ SimpleCov.start "rails" do
     "app/services/exercise7/calculate_service.rb"
   ]
   # skip exercise 8
-  add_filter [
-    "app/controllers/exercise8_controller.rb",
-    "app/services/exercise8/calculate_ticket_price_service.rb"
-  ]
+  # add_filter [
+  #   "app/controllers/exercise8_controller.rb",
+  #   "app/services/exercise8/calculate_ticket_price_service.rb"
+  # ]
   # skip exercise 9
   add_filter [
     "app/controllers/exercise9_controller.rb",
